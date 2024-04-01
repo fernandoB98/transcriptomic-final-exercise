@@ -1,0 +1,24 @@
+producer_class	xtools.gsea.GseaPreranked
+producer_timestamp	1712002640529
+param	rnd_seed	123
+param	rpt_label	my_analysis
+param	set_min	15
+param	chip	chip_file_here
+param	zip_report	false
+param	create_svgs	false
+param	scoring_scheme	weighted
+param	rnk	/home/vant/transcriptomica/trabajo_transcriptomica/Apartado2/input/DPN-Control_24h.rnk
+param	norm	meandiv
+param	out	/home/vant/transcriptomica/trabajo_transcriptomica/Apartado2/apr01
+param	mode	Abs_max_of_probes
+param	include_only_symbols	true
+param	help	false
+param	set_max	500
+param	gmx	/home/vant/transcriptomica/trabajo_transcriptomica/Apartado2/input/DPN_response
+param	make_sets	true
+param	plot_top_x	20
+param	gui	false
+param	nperm	1000
+param	collapse	Remap_Only
+
+file	/home/vant/transcriptomica/trabajo_transcriptomica/Apartado2/apr01/my_analysis.GseaPreranked.1712002640529/index.html
